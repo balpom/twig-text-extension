@@ -1,0 +1,32 @@
+{
+    "name": "balpom/twig-text-extension",
+    "description": "Twig template engine extension, what implements truncate and wordwrap filters without U function from Symfony framework.",
+    "keywords": ["twig", "extension", "text", "textextension", "truncate", "wordwrap", "filter", "twigfilter", "twig_truncate_filter", "twig_wordwrap_filter"],
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Balpom\\Twig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Henrik Bjornskov",
+	    "email": "hb@peytz.dk"
+        },
+        {
+            "name": "Mikhail (Balpom)",
+            "homepage": "https://www.balpom.ru",
+            "role": "reworker"
+        }   
+    ],
+    "require": {
+        "php": "^7.4|^8",
+	"twig/twig": "^2.10|^3"
+    }
+}
